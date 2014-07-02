@@ -6,8 +6,8 @@ A Vagrant file with Ubuntu trusty64, the latest Docker release, the latest Fig r
 ##What's inside ?
 
  - Ubuntu 14.04 LTS (trusty).  
- - the latest Docker release  
- - Fig 0.4.2  
+ - the latest Docker release  ([https://docs.docker.com/](https://docs.docker.com/))  
+ - Fig 0.4.2                  ([http://orchardup.github.io/fig/](http://orchardup.github.io/fig/))  
  - Git (through apt-get)  
 
 ##Network
