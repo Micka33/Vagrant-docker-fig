@@ -19,8 +19,16 @@ Port [`8282`][port] is published.
 The Vagrantfile folder is automatically mounted ([/home/vagrant/mnt][mnt]) and is the default folder upon `vagrant ssh`.  
 This folder is mounted as [NFS][nfs].  
 
+## CPU/RAM
+
+[2 CPU][ncpu]  
+[CPU cap at 70%][cpuc]  
+[1024 Mo RAM][ram]  
 
 [mnt]: https://github.com/Micka33/Vagrant-docker-fig/blob/master/Vagrantfile#L63
 [nfs]: https://github.com/Micka33/Vagrant-docker-fig/blob/master/Vagrantfile#L63
 [ip]:  https://github.com/Micka33/Vagrant-docker-fig/blob/master/Vagrantfile#L61
 [port]:https://github.com/Micka33/Vagrant-docker-fig/blob/master/Vagrantfile#L59
+[ncpu]:https://github.com/Micka33/Vagrant-docker-fig/blob/master/Vagrantfile#L12
+[cpuc]:https://github.com/Micka33/Vagrant-docker-fig/blob/master/Vagrantfile#L13
+[ram]: https://github.com/Micka33/Vagrant-docker-fig/blob/master/Vagrantfile#L11
