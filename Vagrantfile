@@ -59,7 +59,7 @@ SH
     vdocker.vm.network "forwarded_port", guest: 8282, host: 8282
     # Since we mount the dir using NFS we need a private network
     vdocker.vm.network :private_network, ip: "172.17.8.100"
-    # Using NFS cause some shits, such as Mongod, don't know how to deal with some flavors of partition system
+    # Using NFS because some shits, such as Mongod, don't know how to deal with some flavors of partition system
     vdocker.vm.synced_folder ".", "/home/vagrant/mnt", :nfs => true, :mount_options => ['nolock,vers=3,udp']
 
   end
