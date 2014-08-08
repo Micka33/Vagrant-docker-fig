@@ -8,6 +8,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Limitate the resources used by our VMs
   config.vm.provider "virtualbox" do |v|
+    v.gui = false
     v.memory = 1024
     v.cpus = 2
     v.customize ["modifyvm", :id, "--cpuexecutioncap", "70"]
